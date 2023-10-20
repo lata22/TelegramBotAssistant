@@ -1,0 +1,28 @@
+# ASP.NET Core (.NET Framework)
+# Build and test ASP.NET Core projects targeting the full .NET Framework.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+trigger:
+- master
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+  dockerImageTag: '$(Build.SourceVersion)'
+
+steps:
+- task: NuGetToolInstaller@1
+
+- task: CmdLine@2
+  displayName: 'Docker Login'
+  inputs:
+    script: 'docker login --username lata22 --password $(DOCKER_REGISTRY_PASSWORD)'
+
+- task: CmdLine@2
+  displayName: 'Build and push Linux image'
+  inputs:
+    script: 'docker build -t lata22/personrecognition:latest-linux -f CognitiveServices.Api/Dockerfile . && docker push lata22/personrecognition:latest-linux'
+
+

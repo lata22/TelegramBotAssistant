@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "VD.TelegramBot.Db": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:53680;http://localhost:53681"
+    }
+  }
+}

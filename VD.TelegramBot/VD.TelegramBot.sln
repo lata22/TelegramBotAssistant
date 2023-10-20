@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VD.TelegramBot.Api", "VD.TelegramBot\VD.TelegramBot.Api.csproj", "{DE443D26-45EA-427B-ACB1-4315698D5EB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegramBot", "TelegramBot\TelegramBot.csproj", "{5C67DAB9-62CA-40EC-A3AA-451DBD4C75CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VD.TelegramBot.Db", "VD.TelegramBot.Db\VD.TelegramBot.Db.csproj", "{83E13318-C797-4C6C-BCA3-AD80BE1BB684}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM32 = Debug|ARM32
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|ARM32 = Release|ARM32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE443D26-45EA-427B-ACB1-4315698D5EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE443D26-45EA-427B-ACB1-4315698D5EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE443D26-45EA-427B-ACB1-4315698D5EB6}.Debug|ARM32.ActiveCfg = Debug|Any CPU
+		{DE443D26-45EA-427B-ACB1-4315698D5EB6}.Debug|ARM32.Build.0 = Debug|Any CPU
+		{DE443D26-45EA-427B-ACB1-4315698D5EB6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DE443D26-45EA-427B-ACB1-4315698D5EB6}.Debug|x64.Build.0 = Debug|Any CPU
+		{DE443D26-45EA-427B-ACB1-4315698D5EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE443D26-45EA-427B-ACB1-4315698D5EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE443D26-45EA-427B-ACB1-4315698D5EB6}.Release|ARM32.ActiveCfg = Release|Any CPU
+		{DE443D26-45EA-427B-ACB1-4315698D5EB6}.Release|ARM32.Build.0 = Release|Any CPU
+		{DE443D26-45EA-427B-ACB1-4315698D5EB6}.Release|x64.ActiveCfg = Release|Any CPU
+		{DE443D26-45EA-427B-ACB1-4315698D5EB6}.Release|x64.Build.0 = Release|Any CPU
+		{5C67DAB9-62CA-40EC-A3AA-451DBD4C75CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C67DAB9-62CA-40EC-A3AA-451DBD4C75CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C67DAB9-62CA-40EC-A3AA-451DBD4C75CA}.Debug|ARM32.ActiveCfg = Debug|ARM32
+		{5C67DAB9-62CA-40EC-A3AA-451DBD4C75CA}.Debug|ARM32.Build.0 = Debug|ARM32
+		{5C67DAB9-62CA-40EC-A3AA-451DBD4C75CA}.Debug|x64.ActiveCfg = Debug|x64
+		{5C67DAB9-62CA-40EC-A3AA-451DBD4C75CA}.Debug|x64.Build.0 = Debug|x64
+		{5C67DAB9-62CA-40EC-A3AA-451DBD4C75CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C67DAB9-62CA-40EC-A3AA-451DBD4C75CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C67DAB9-62CA-40EC-A3AA-451DBD4C75CA}.Release|ARM32.ActiveCfg = Release|ARM32
+		{5C67DAB9-62CA-40EC-A3AA-451DBD4C75CA}.Release|ARM32.Build.0 = Release|ARM32
+		{5C67DAB9-62CA-40EC-A3AA-451DBD4C75CA}.Release|x64.ActiveCfg = Release|x64
+		{5C67DAB9-62CA-40EC-A3AA-451DBD4C75CA}.Release|x64.Build.0 = Release|x64
+		{83E13318-C797-4C6C-BCA3-AD80BE1BB684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E13318-C797-4C6C-BCA3-AD80BE1BB684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E13318-C797-4C6C-BCA3-AD80BE1BB684}.Debug|ARM32.ActiveCfg = Debug|Any CPU
+		{83E13318-C797-4C6C-BCA3-AD80BE1BB684}.Debug|ARM32.Build.0 = Debug|Any CPU
+		{83E13318-C797-4C6C-BCA3-AD80BE1BB684}.Debug|x64.ActiveCfg = Debug|x64
+		{83E13318-C797-4C6C-BCA3-AD80BE1BB684}.Debug|x64.Build.0 = Debug|x64
+		{83E13318-C797-4C6C-BCA3-AD80BE1BB684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E13318-C797-4C6C-BCA3-AD80BE1BB684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E13318-C797-4C6C-BCA3-AD80BE1BB684}.Release|ARM32.ActiveCfg = Release|Any CPU
+		{83E13318-C797-4C6C-BCA3-AD80BE1BB684}.Release|ARM32.Build.0 = Release|Any CPU
+		{83E13318-C797-4C6C-BCA3-AD80BE1BB684}.Release|x64.ActiveCfg = Release|x64
+		{83E13318-C797-4C6C-BCA3-AD80BE1BB684}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F65018D-5EFC-4762-9710-2AAF5366AA34}
+	EndGlobalSection
+EndGlobal

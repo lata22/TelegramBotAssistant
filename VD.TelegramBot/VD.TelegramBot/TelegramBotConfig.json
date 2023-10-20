@@ -1,0 +1,10 @@
+{
+  "StartMessage": "Bienvenido a Cognitive Services!\n",
+  "ErrorMessage": "Command not found\n",
+  "CommandExecutedMessage": "Executed!\n",
+  "CommandList": [
+  ],
+  "AllowedUsernames": [
+
+  ]
+}
